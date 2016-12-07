@@ -201,6 +201,11 @@ button:hover{
     width: 100%;
     height: 600px;
 }
+#reg_thanks{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
 
 
 .imgMG {
@@ -302,106 +307,114 @@ footer {
   -moz-transition: all .3s ease-out;
 }
                                 
- @media screen and (max-width:1170px){
-     
+ @media screen and (max-width:1170px) {
+
      h2 {
-       font-size: 1.1em;         
-         
-     }
-h3{
-    font-size: 0.8em;
-}
-      
-        #logo {
-    float: left;
-    margin-left: 10%;
-    margin-top: 2%;
-    font-size: 1.6em;
-}  
-     #menuHreffs {
-   
-    float: right;
-    margin-top: 3em;
-    
-    text-decoration: none;
-    padding-right: -2em;
-}
-    h1{
-    font-size: 2.9em;
-    padding-top: 5%;
-    padding-bottom: 1%;
-    margin-left: 12%;
-       color: azure;
-}
-#h2_for_foto {
-    font-size: 1.3em;
-    margin-left: 12%;
-    margin-top: -1%;
-}
- #p_fofto {
-    
-     margin-left: 12%;
-     padding-bottom: 1em;
-    
-}                          
-        
-   @media screen and  (max-width:768px){
-      
-        #logo {
-    float: left;
-    margin-left: -1%;
-    margin-top: 2%;
-    font-size: 1.6em;
-}  
-   h1{
-    font-size: 2.3em;
-    padding-top: 5%;
-    padding-bottom: 1%;
-    margin-left: 12%;
-       color: azure;
-}
-#h2_for_foto {
-    font-size: 1em;
-    margin-left: 12%;
-    margin-top: -1%;
-}
- #p_fofto {
-    
-     margin-left: 12%;
-     padding-bottom: 1em;
-    
-}                          
-.side-bar {
-   margin-left:  4%;
-    margin-top: 5%;
-    display: inline-block;
-    height: auto;
-    width:29%;
-    
-    
-      
-}
-.side-bar1 {
-    
-     display: inline-block;
-    height: auto;
-    padding-left: 1em;
-    
-    
-    width:29%;
-}
-        #menuHreffs {
-   
-    float: right;
-    margin-top: 3em;
-    
-    text-decoration: none;
-    padding-right: -5em;
-}
+         font-size: 1.1em;
 
      }
-     
-     @media screen and (max-width:425px) {
+
+     h3 {
+         font-size: 0.8em;
+     }
+
+     #logo {
+         float: left;
+         margin-left: 10%;
+         margin-top: 2%;
+         font-size: 1.6em;
+     }
+
+     #menuHreffs {
+
+         float: right;
+         margin-top: 3em;
+
+         text-decoration: none;
+         padding-right: -2em;
+     }
+
+     h1 {
+         font-size: 2.9em;
+         padding-top: 5%;
+         padding-bottom: 1%;
+         margin-left: 12%;
+         color: azure;
+     }
+
+     #h2_for_foto {
+         font-size: 1.3em;
+         margin-left: 12%;
+         margin-top: -1%;
+     }
+
+     #p_fofto {
+
+         margin-left: 12%;
+         padding-bottom: 1em;
+
+     }
+ }
+     @media screen and  (max-width: 768px) {
+
+         #logo {
+             float: left;
+             margin-left: -1%;
+             margin-top: 2%;
+             font-size: 1.6em;
+         }
+
+         h1 {
+             font-size: 2.3em;
+             padding-top: 5%;
+             padding-bottom: 1%;
+             margin-left: 12%;
+             color: azure;
+         }
+
+         #h2_for_foto {
+             font-size: 1em;
+             margin-left: 12%;
+             margin-top: -1%;
+         }
+
+         #p_fofto {
+
+             margin-left: 12%;
+             padding-bottom: 1em;
+
+         }
+
+         .side-bar {
+             margin-left: 4%;
+             margin-top: 5%;
+             display: inline-block;
+             height: auto;
+             width: 29%;
+
+         }
+
+         .side-bar1 {
+
+             display: inline-block;
+             height: auto;
+             padding-left: 1em;
+
+             width: 29%;
+         }
+
+         #menuHreffs {
+
+             float: right;
+             margin-top: 3em;
+
+             text-decoration: none;
+             padding-right: -5em;
+         }
+
+     }
+
+     @media screen and (max-width: 425px) {
 
          #button_mobile_version {
              position: absolute;
@@ -479,6 +492,7 @@ h3{
          }
 
      }
+
 
 
 
